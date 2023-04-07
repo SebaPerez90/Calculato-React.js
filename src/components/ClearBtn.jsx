@@ -5,7 +5,7 @@ function ClearBtn(props) {
     return (
         <button
         onClick={props.clearInput}
-        className='ClearBtn' >
+        className='clearBtn' >
             Clear
         </button>
     );

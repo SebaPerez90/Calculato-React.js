@@ -8,7 +8,7 @@ export default function Header(props) {
                 onClick={props.showDetails}
                 src={require('../imgs/foto-perfil.jpg')} alt="SebaPerez90"
                 className="header-img" />
-            <p className="header-text">Calculator Proyect With React.Js <b className="bar">I</b></p>
+            <p className="header-text">Calculator React.Js<b className="bar">I</b></p>
         </div>
     );
 }

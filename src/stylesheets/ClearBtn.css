@@ -1,4 +1,4 @@
-.ClearBtn {
+.clearBtn {
     background-color: #7c2727bf;
     margin: 0 1em;
     padding: 1em 0;
@@ -7,7 +7,7 @@
     color: white;
 }
 
-.ClearBtn:hover {
+.clearBtn:hover {
     background-color: #ff4949;
     transition: all 200ms;
     cursor: pointer;
