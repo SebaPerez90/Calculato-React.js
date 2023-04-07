@@ -1,0 +1,18 @@
+.input-container {
+    background-color: #141414;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border-radius: .5em;
+    margin: 0 .6em;
+    margin-bottom: 1em;
+    height: 2em;
+    line-height: 3em;
+    text-align: end;
+    outline: none;
+    overflow: hidden;
+    flex-grow:.2;
+    border: 2px solid white;
+}

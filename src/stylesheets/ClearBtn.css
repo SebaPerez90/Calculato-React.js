@@ -1,0 +1,14 @@
+.ClearBtn {
+    background-color: #7c2727bf;
+    margin: 0 1em;
+    padding: 1em 0;
+    border-radius: 2em;
+    border: 2px solid white;
+    color: white;
+}
+
+.ClearBtn:hover {
+    background-color: #ff4949;
+    transition: all 200ms;
+    cursor: pointer;
+}

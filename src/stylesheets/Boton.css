@@ -1,0 +1,28 @@
+.boton-container {
+    background-color: rgb(55, 42, 67);
+    border-radius: 9px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: lato, sans-serif;
+    width: 20px;
+    height: 30px;
+    flex-grow:.3;
+}
+
+.boton-container:hover {
+    background-color: #910aff;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.boton-container.operator {
+    background-color: #7c2727bf;
+    font-weight: bolder;
+}
+
+.boton-container.operator:hover {
+    background-color: #00ff66;
+}
