@@ -24,6 +24,7 @@ function App() {
     header_container.classList.add('header-container-active');
     header_img.classList.add('header-img-active');
     header_text.classList.add('header-text-active');
+    document.querySelector('.div-tap-text').style.display = 'none';
     main.insertAdjacentHTML('beforebegin', `
     <div class="menu-active">
       <button class="btn-remove-style">X</button>
@@ -60,11 +61,31 @@ function App() {
     setInput('');
   };
 
+  function hoverText() {
+    const header_img = document.querySelector('.header-img');
+    header_img.insertAdjacentHTML('beforebegin',
+      `<div class='div_saludo'>
+        <p>👈 tap to view more </p>
+    </div>
+    `)
+  };
+
+  function hoverTextCancel() {
+    setTimeout(() => {
+      document.querySelector('.div_saludo').remove();
+    }, 300);
+  };
+
 
   return (
     <div className='App'>
       <div className='main-container'>
-        <Header showDetails={showDetails} />
+        <p className='div-tap-text'>👆 tap to view more </p>
+        <Header
+          showDetails={showDetails}
+          hoverText={hoverText}
+          hoverTextCancel={hoverTextCancel}
+        />
         <div className='calculator-container'>
           <InputOperation inputDisplay={input} />
           <div className='fila'>

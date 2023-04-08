@@ -15,6 +15,9 @@
     gap: 1em;
     overflow: hidden;
 }
+.div-tap-text {
+    display: none;
+}
 
 .calculator-container {
     display: flex;
