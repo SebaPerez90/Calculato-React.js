@@ -19,6 +19,7 @@
     box-shadow: 0 0 40px rgba(25, 9, 255, 0.88);
     margin-bottom: 10px;
     object-fit: cover;
+    cursor: pointer;
     animation: img-animation 1s infinite alternate-reverse;
 }
 
